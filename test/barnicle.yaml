@@ -1,0 +1,13 @@
+endpoints:
+    - endpoint: dns
+      parameters:
+        - ip
+        - range
+      script: dns.py
+    - endpoint: time
+      script: time.py
+    - endpoint: heartbeat
+      script: heartbeat.py
+    - endpoint: date
+      script: date.py
+      
